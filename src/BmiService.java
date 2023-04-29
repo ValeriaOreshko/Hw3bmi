@@ -1,9 +1,9 @@
 public class BmiService {
-    public double calculate(double weight_kg, double height_cm) {
+    public double calculate(double weightKg, double heightCm) {
 
-        double heightS = height_cm * height_cm;
+        double heightS = heightCm * heightCm;
 
-        return weight_kg / heightS;
+        return weightKg / heightS;
 
     }
 
